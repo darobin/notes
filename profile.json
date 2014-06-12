@@ -1,0 +1,12 @@
+{
+    "name": "mathesis"
+,   "modules": {
+        "insert-style": "node_modules/duct/core/insert-style.js"
+    }
+,   "resources": {
+        "mathesis-css": "css/mathesis.css"
+    }
+,   "configuration": {
+        "insert-style": ["mathesis-css"]
+    }
+}
