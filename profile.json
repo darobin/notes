@@ -7,6 +7,6 @@
         "mathesis-css": "css/mathesis.css"
     }
 ,   "configuration": {
-        "insert-style": ["mathesis-css"]
+        "insertStyle": ["mathesis-css"]
     }
 }
