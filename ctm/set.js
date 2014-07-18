@@ -42,6 +42,9 @@ Set.prototype = {
 ,   update: function (array) {
         this.items = _.uniq(_.flatten([this.items, array], true));
     }
+,   comprehension:  function (fun) {
+        return new Set(this.items.forEach(fun));
+    }
 };
 
 exports.Set = Set;
